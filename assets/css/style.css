@@ -213,37 +213,123 @@ html{
     }
 }
 
-.slider{
+.banner-section{
+    display: grid;
+    align-items: center;
     width: 100%;
-    height: 830px;
-    background: url(../img/img-bannerhome2.svg);
-    border-top: solid 6px #0084C6;
+    height: 760px;
 }
 
-.slider-texto{
-    padding-top: 30vh;
-    padding-left: 10vh;
-}
+/*-- Banner Config --*/
 
-.slider-texto h1{
-    font-family: 'GothamBold';
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 30px;
-    line-height: 40px;
-}
-
-.slider-texto h1 span{
-    background-color: #C4161C;
-    padding: 5px;
-}
-
-.botoes-banner{
-    margin-top: 289px;
+.banner-1{
+    background-image: url(../img/img-banner-home1.png);
+    background-size: cover;
+    width: 100%;
+    height: 760px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: .8s ease-in-out;
 }
 
+.banner-2{
+    background-image: url(../img/img-banner-home2.png);
+    background-size: cover;
+    width: 100%;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    opacity: 0;
+    transition: .8s ease-in-out;
+}
+
+.banner-3{
+    background-image: url(../img/img-banner-home3.png);
+    background-size: cover;
+    width: 100%;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    opacity: 0;
+    transition: .8s ease-in-out;
+}
+
+.show{
+    opacity: 1;
+    transition: .8s ease-in-out;
+}
+
+/*-- Banner config Ends --*/
+
+/*-- Banner styles --*/
+
+.banner1-content{
+    margin-left: 100px;
+}
+
+.banner1-content h1{
+    font-family: 'GothamBlack';
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.banner1-content h1 span{
+    background-color: #C4161C;
+    padding: 1px 7px;
+}
+
+.banner1-content a{
+    text-decoration: none;
+    font-family: 'GothamMedium';
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #C4161C;
+    padding: 20px 30px;
+    border-radius: 50px;
+    transition: .8s ease-in-out;
+}
+
+.banner1-content a:hover{
+    background-color: #fff;
+    color: #C4161C;
+    transition: .8s ease-in-out;
+}
+
+.banner2-content{
+    margin-left: 100px;
+}
+
+.banner2-content h1{
+    font-family: 'GothamBlack';
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.banner3-content{
+    margin-left: 100px;
+}
+
+.banner3-content h1{
+    font-family: 'GothamBlack';
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.banner3-content h1 span{
+    background-color: #C4161C;
+    padding: 1px 7px;
+}
+/*-- Banner styles &nds --*/
 .cotacao{
     margin-left: 140px;
     background-color: #C4161C;
@@ -578,7 +664,19 @@ html{
     font-family: 'GothamBlack';
     text-align: center;
     cursor: pointer;
-    border-radius: 25px;
+    border-radius: 25px 25px 0 0;
+}
+
+.footer-form form button{
+    width: 100%;
+    background-color: #C4161C;
+    color: #fff;
+    border: none;
+    border-radius: 0 0 25px 25px;
+    padding: 15px 0;
+    font-family: 'GothamMedium';
+    text-transform: uppercase;
+    letter-spacing: .8px;
 }
 
 .footer-frase {
