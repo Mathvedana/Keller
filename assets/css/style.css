@@ -1514,6 +1514,96 @@ html{
     }
 }
 
+@media screen and (max-width: 1440px) {
+    .nav_links li {
+        margin-inline: 16px;
+        list-style: none;
+        border-bottom: solid 6px #fff;
+        padding-bottom: 10px;
+        border-radius: 5px;
+    }
+
+    .nav_links li a {
+        text-decoration: none;
+        font-family: 'Gotham';
+        font-size: 23px;
+        font-weight: 600;
+        color: #4D4D4D;
+        padding: 7px 3px !important;
+    }
+
+    .img-title {
+        background-image: url(../img/Fotos\ Antigas\ Keller\ Transportes\ 1.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 600px;
+        display: flex;
+        align-items: center;
+    }
+    .about-content1 .about-content1-left svg {
+        position: relative;
+        bottom: 80px;
+        left: 96px;
+    }
+
+    .about-content1 .about-content1-left h1 {
+        font-family: 'GothamUltraItalic';
+        font-size: 42px;
+        color: #fff;
+        position: relative;
+        bottom: 137px;
+        left: 148px;
+    }
+
+    .about-itens-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 73px 8px;
+    }
+
+    .about-item-content {
+        display: flex;
+        align-items: center;
+        width: 500px;
+        margin-right: 132px;
+        margin-bottom: 73px;
+    }
+
+    .MVV {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .cqs-item {
+        width: 440px;
+        display: flex;
+        align-items: center;
+        margin-right: 67px;
+        margin-bottom: 73px;
+    }
+
+    .galeria-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding-inline: 0px;
+        margin-left: 1.5%;
+    }
+
+    .rastreamento-btns a {
+        font-family: 'GothamBlack';
+        font-size: 27px;
+        color: #fff;
+        text-decoration: none;
+        background-color: #0084C6;
+        padding: 21px 40px;
+        border-radius: 45px;
+        border: solid 2px #fff;
+        margin-inline: 45px;
+        transition: all .6s;
+    }
+}
+
 @media screen and (max-width: 1366px ) {
     .navbar .logo {
         margin-right: 20px;
