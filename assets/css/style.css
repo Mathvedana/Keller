@@ -356,7 +356,7 @@ html{
     padding: 1px 7px;
 }
 
-.banner1-content a{
+.banner1-content a {
     text-decoration: none;
     font-family: 'GothamMedium';
     text-transform: uppercase;
@@ -365,6 +365,8 @@ html{
     padding: 20px 30px;
     border-radius: 50px;
     transition: .8s ease-in-out;
+    position: absolute;
+    z-index: 9000;
 }
 
 .banner1-content a:hover{
