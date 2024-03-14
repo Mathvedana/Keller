@@ -1627,6 +1627,16 @@ html{
     text-transform: uppercase;
 }
 
+.unidade-item a{
+    text-decoration: none;
+    background: linear-gradient(90deg, #0084C6 20.35%, #C4161C 123.86%);
+    color: #fff;
+    font-size: 17px;
+    font-family: 'GothamBlack';
+    padding: 15px 30px;
+    border-radius: 15px;
+}
+
 @media screen and (max-width: 1728px) {
     .nav_links li a {
         text-decoration: none;
